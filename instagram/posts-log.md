@@ -8,6 +8,6 @@
 | 04 | 2026-11-25 | Reel | Geld & Sparen | Zahltag – wohin ist das Geld verschwunden? (fertiges Reel aus Reels/reel-09, ohne Ton) | veröffentlicht | https://www.instagram.com/reel/DgKDvaeIo3m/ |
 | 05 | 2026-11-25 | Reel | Konflikte lösen | Streit ums Geschirr – worum geht es wirklich? (fertiges Reel aus Reels/reel-10, ohne Ton) | veröffentlicht | https://www.instagram.com/reel/DgKD1daIkIP/ |
 | 06 | 2026-11-25 | Karussell | Psyche stärken | Winterblues: 5 Dinge, die an grauen Tagen helfen (Hintergrund: Foto Regenfenster, Unsplash / Lucia Gherra) | veröffentlicht | https://www.instagram.com/p/DgKFd6NgjAL/ |
-| 07 | 2026-11-25 | Reel (Trial) | Konflikte lösen | 3 Sätze, die deinen nächsten Streit retten – Teil 1 (Teil 2 versprochen: 3 Sätze, die du NIE sagen solltest; Hintergrund: Foto zwei Kaffeetassen, Unsplash / Tania Lyahnovich) | freigegeben (Auftrag Inhaber) | – |
+| 07 | 2026-11-25 | Reel | Konflikte lösen | 3 Sätze, die deinen nächsten Streit retten – Teil 1 (Teil 2 versprochen: 3 Sätze, die du NIE sagen solltest; Hintergrund: Foto zwei Kaffeetassen, Unsplash / Tania Lyahnovich) | veröffentlicht (als normales Reel; Trial Reel wegen zu weniger Follower nicht möglich) | https://www.instagram.com/reel/DgKIeEZs9Pp/ |
 
 Format-Regel: Reel und Karussell wechseln sich ab. Nächstes Format = Gegenteil der letzten Zeile. Gepostet wird ohne Musik – der Inhaber fügt sie danach selbst in der App hinzu.
