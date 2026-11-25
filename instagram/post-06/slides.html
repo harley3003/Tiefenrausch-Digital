@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+  :root{
+    --navy:#0b1a2b; --deep:#06111d; --gold:#e0af5c; --cream:#fdf0dc; --muted:#a9b6c6;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1350px;overflow:hidden}
+  body{
+    background:radial-gradient(120% 80% at 50% 0%, #15304d 0%, var(--navy) 45%, var(--deep) 100%);
+    color:var(--cream);font-family:"Segoe UI",Arial,sans-serif;
+  }
+  .slide{display:none;position:relative;width:1080px;height:1350px;padding:110px 100px}
+  .slide.on{display:flex;flex-direction:column}
+  .serif{font-family:Georgia,"Times New Roman",serif}
+  .kicker{color:var(--gold);letter-spacing:.32em;font-size:26px;font-weight:600;text-transform:uppercase}
+  h1{font-size:92px;line-height:1.05;font-weight:700}
+  h2{font-size:72px;line-height:1.1;font-weight:700}
+  .gold{color:var(--gold)}
+  p.lead{font-size:38px;line-height:1.45;color:var(--muted)}
+  .foot{position:absolute;left:100px;right:100px;bottom:80px;display:flex;justify-content:space-between;align-items:center;font-size:26px;color:var(--muted)}
+  .dots{display:flex;gap:12px}
+  .dots i{width:12px;height:12px;border-radius:50%;background:#33475e;display:block}
+  .dots i.on{background:var(--gold)}
+  .arc{width:100%;height:60px;margin:50px 0}
+  .card{border:2px solid rgba(224,175,92,.35);border-radius:28px;padding:44px 48px;background:rgba(255,255,255,.03);margin-bottom:34px}
+  .card .t{font-size:44px;font-weight:700;margin-bottom:10px}
+  .card .d{font-size:32px;line-height:1.4;color:var(--muted)}
+  .num{font-size:30px;color:var(--gold);font-weight:700;letter-spacing:.2em;margin-bottom:14px}
+  .cta .card{padding:30px 40px;margin-bottom:22px}
+  .slide[data-n="2"],.slide[data-n="3"],.slide[data-n="4"],.slide[data-n="5"]{justify-content:center;padding-bottom:180px}
+  .swipe{color:var(--gold);font-size:30px;font-weight:600;letter-spacing:.08em}
+  .ex{font-size:32px;line-height:1.4;color:var(--cream);border-left:5px solid var(--gold);padding:6px 0 6px 28px;margin-top:22px}
+  /* Foto-Hintergrund (Unsplash) + dunkle Überlagerung für Lesbarkeit */
+  body{background:#06111d}
+  .photo{position:absolute;inset:0;background:url(bg.jpg) center 35%/cover no-repeat}
+  .shade{position:absolute;inset:0}
+  .slide>*{position:relative;z-index:2}
+  .slide .photo,.slide .shade{position:absolute;z-index:0}
+  .hook .shade{background:linear-gradient(180deg,rgba(6,17,29,.55) 0%,rgba(11,26,43,.62) 45%,rgba(6,17,29,.92) 100%)}
+  .soft .photo{filter:blur(10px) saturate(.8);transform:scale(1.06)}
+  .soft .shade{background:linear-gradient(180deg,rgba(11,26,43,.80) 0%,rgba(6,17,29,.90) 100%)}
+  .card{background:rgba(6,17,29,.55)}
+  .foot{z-index:3}
+  .slide[data-n="5"]{justify-content:center;padding-bottom:180px}
+</style>
+</head>
+<body>
+
+<!-- 1 Hook -->
+<section class="slide hook" data-n="1">
+  <div class="photo"></div><div class="shade"></div>
+  <img src="../../LOGO.png" style="width:300px;margin:0 auto 40px;display:block" alt="">
+  <div style="margin-top:auto">
+    <h1 class="serif">Grau draußen.<br><span class="gold">Grau im Kopf?</span></h1>
+    <p class="lead" style="margin-top:44px;color:var(--cream)">5 Dinge, die an dunklen Tagen<br>wirklich helfen.</p>
+  </div>
+  <div style="margin-top:70px;margin-bottom:60px" class="swipe">WISCHEN →</div>
+</section>
+
+<!-- 2 Warum -->
+<section class="slide soft" data-n="2">
+  <div class="photo"></div><div class="shade"></div>
+  <div class="kicker">Gut zu wissen</div>
+  <h2 class="serif" style="margin-top:30px">Weniger Licht,<br>weniger Antrieb.<br><span class="gold">Kein Charakterfehler.</span></h2>
+  <svg class="arc" viewBox="0 0 880 60" preserveAspectRatio="none"><path d="M0 55 Q440 -25 880 55" stroke="#e0af5c" stroke-width="6" fill="none"/></svg>
+  <p class="lead" style="color:var(--cream)">Im Herbst und Winter bekommst du viel weniger Tageslicht. Das bringt bei vielen Schlaf und Stimmung durcheinander.</p>
+  <p class="lead" style="margin-top:40px">Die gute Nachricht: Du kannst <span class="gold">gegensteuern</span> – mit kleinen Schritten.</p>
+</section>
+
+<!-- 3 Tipps 1+2 -->
+<section class="slide soft" data-n="3">
+  <div class="photo"></div><div class="shade"></div>
+  <div>
+    <div class="num">TIPP 01</div>
+    <h2 class="serif" style="font-size:60px"><span class="gold">Tageslicht</span> tanken</h2>
+    <p class="lead" style="margin-top:22px">Jeden Tag 20–30 Minuten raus, am besten mittags. Selbst ein grauer Himmel ist draußen viel heller als jedes Wohnzimmer.</p>
+  </div>
+  <svg class="arc" viewBox="0 0 880 60" preserveAspectRatio="none" style="height:40px;opacity:.5"><path d="M0 55 Q440 -25 880 55" stroke="#e0af5c" stroke-width="4" fill="none"/></svg>
+  <div>
+    <div class="num">TIPP 02</div>
+    <h2 class="serif" style="font-size:60px">In <span class="gold">Bewegung</span> bleiben</h2>
+    <p class="lead" style="margin-top:22px">Ein flotter Spaziergang reicht schon. Bewegung hebt die Stimmung – zusammen mit Tipp 1 gleich doppelt.</p>
+  </div>
+</section>
+
+<!-- 4 Tipps 3+4 -->
+<section class="slide soft" data-n="4">
+  <div class="photo"></div><div class="shade"></div>
+  <div>
+    <div class="num">TIPP 03</div>
+    <h2 class="serif" style="font-size:60px">Feste <span class="gold">Aufstehzeit</span></h2>
+    <p class="lead" style="margin-top:22px">Steh jeden Tag ungefähr zur selben Zeit auf – auch am Wochenende. Das gibt deiner inneren Uhr Halt.</p>
+  </div>
+  <svg class="arc" viewBox="0 0 880 60" preserveAspectRatio="none" style="height:40px;opacity:.5"><path d="M0 55 Q440 -25 880 55" stroke="#e0af5c" stroke-width="4" fill="none"/></svg>
+  <div>
+    <div class="num">TIPP 04</div>
+    <h2 class="serif" style="font-size:60px"><span class="gold">Verabrede</span> dich</h2>
+    <p class="lead" style="margin-top:22px">Auch wenn die Couch lockt: Plane bewusst Treffen ein. Rückzug fühlt sich gut an, drückt aber oft weiter auf die Stimmung.</p>
+  </div>
+</section>
+
+<!-- 5 Tipp 5 + Hilfe -->
+<section class="slide soft" data-n="5">
+  <div class="photo"></div><div class="shade"></div>
+  <div class="num">TIPP 05</div>
+  <h2 class="serif">Plane kleine<br><span class="gold">Lichtblicke</span></h2>
+  <p class="lead" style="margin-top:26px">Schreib dir jeden Abend eine Sache auf, auf die du dich morgen freust – ein Lieblingsessen, ein Anruf, ein Bad.</p>
+  <div class="card" style="margin:50px 0 0">
+    <div class="t">Länger als 2 Wochen niedergeschlagen?</div>
+    <div class="d">Sprich mit deiner Hausarztpraxis. TelefonSeelsorge: <span class="gold" style="font-weight:700">0800 111 0 111</span> · kostenlos, rund um die Uhr</div>
+  </div>
+</section>
+
+<!-- 6 CTA -->
+<section class="slide hook" data-n="6">
+  <div class="photo"></div><div class="shade" style="background:rgba(6,17,29,.82)"></div>
+  <img src="../../LOGO.png" style="width:190px;margin:-30px auto 0;display:block" alt="">
+  <h2 class="serif" style="text-align:center;margin-top:20px">Mehr Licht<br><span class="gold">für graue Tage.</span></h2>
+  <div style="margin-top:44px" class="cta">
+    <div class="card" style="text-align:center"><div class="t">Folge <span class="gold">@tiefenrausch_digital</span></div><div class="d">für neue Ratgeber jede Woche</div></div>
+    <div class="card" style="text-align:center"><div class="t">Speichere diesen Post</div><div class="d">für den nächsten grauen Tag</div></div>
+    <div class="card" style="text-align:center"><div class="t">Schreib uns in die Kommentare</div><div class="d">Was hilft dir, wenn es draußen dunkel wird?</div></div>
+  </div>
+</section>
+
+<div class="foot">
+  <span>@tiefenrausch_digital</span>
+  <div class="dots" id="dots"></div>
+</div>
+
+<script>
+  var n = parseInt((location.hash||'#1').slice(1),10)||1;
+  document.querySelectorAll('.slide').forEach(function(s){ if(+s.dataset.n===n) s.classList.add('on'); });
+  var d=document.getElementById('dots');
+  for(var i=1;i<=6;i++){ var e=document.createElement('i'); if(i===n) e.className='on'; d.appendChild(e); }
+</script>
+</body>
+</html>
