@@ -4,4 +4,4 @@
 |----|-------|-------|-------|--------|------|
 | 01 | 2026-11-24 | Vorstellung (alle) | Wer wir sind + 24-Stunden-Regel + Ich-Botschaften | veröffentlicht | https://www.instagram.com/p/DgHqVHeiGgH/ |
 | 02 | 2026-11-24 | Psyche stärken | Grübeln stoppen: 4 Wege raus aus dem Gedankenkarussell | veröffentlicht | https://www.instagram.com/p/DgHr9SMDc01/ |
-| 03 | 2026-11-25 | Geld & Sparen | Black Friday: 5 Regeln, damit du wirklich sparst | wartet auf Freigabe | – |
+| 03 | 2026-11-25 | Geld & Sparen | Black Friday: 5 Regeln, damit du wirklich sparst | veröffentlicht | https://www.instagram.com/p/DgKASe3kbhp/ |
