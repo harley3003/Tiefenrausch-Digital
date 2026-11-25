@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<!-- Post 07 (Reel, Trial): Konflikte lösen – 3 Sätze, die deinen nächsten Streit retten. 7 Szenen. Hintergrund: Unsplash / Tania Lyahnovich -->
+<style>
+  :root{ --navy:#0b1a2b; --deep:#06111d; --gold:#e0af5c; --cream:#fdf0dc; --muted:#b9c4d2; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1920px;overflow:hidden}
+  body{background:#06111d;color:var(--cream);font-family:"Segoe UI",Arial,sans-serif}
+  .photo{position:absolute;inset:0;background:url(bg.jpg) center 62%/cover no-repeat}
+  .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,17,29,.82) 0%,rgba(6,17,29,.55) 42%,rgba(6,17,29,.35) 62%,rgba(6,17,29,.85) 100%)}
+  body.dense .photo{filter:blur(9px);transform:scale(1.05)}
+  body.dense .shade{background:rgba(6,17,29,.80)}
+  .stage{position:absolute;left:90px;right:120px;top:260px;bottom:440px;display:flex;flex-direction:column;justify-content:center;z-index:2}
+  .top{justify-content:flex-start;padding-top:40px}
+  .serif{font-family:Georgia,"Times New Roman",serif}
+  .gold{color:var(--gold)}
+  .kicker{color:var(--gold);letter-spacing:.32em;font-size:30px;font-weight:600;text-transform:uppercase;margin-bottom:30px}
+  h1{font-size:108px;line-height:1.04;font-weight:700;text-shadow:0 4px 30px rgba(0,0,0,.6)}
+  h2{font-size:80px;line-height:1.1;font-weight:700}
+  .lead{font-size:46px;line-height:1.4;color:var(--muted)}
+  .tag{display:inline-block;margin-top:44px;padding:14px 28px;border:2px solid var(--gold);border-radius:40px;color:var(--gold);font-size:36px;font-weight:600;background:rgba(6,17,29,.55)}
+  .big-n{font-family:Georgia,serif;font-size:200px;line-height:.9;color:var(--gold);font-weight:700}
+  .quote{font-family:Georgia,serif;font-size:84px;line-height:1.12;font-weight:700;margin-top:24px}
+  .why{font-size:44px;line-height:1.4;color:var(--muted);margin-top:40px;border-left:6px solid var(--gold);padding-left:28px}
+  .logo{width:220px;display:block;margin:0 auto 40px}
+  .card{border:2px solid rgba(224,175,92,.5);border-radius:28px;padding:34px 40px;background:rgba(6,17,29,.6);margin-top:30px;text-align:center}
+  .card .t{font-size:46px;font-weight:700}
+  .card .d{font-size:36px;color:var(--muted);margin-top:8px;line-height:1.35}
+  .bar{position:absolute;left:90px;right:120px;top:200px;height:6px;background:rgba(255,255,255,.18);border-radius:3px;z-index:2}
+  .bar i{display:block;height:100%;background:var(--gold);border-radius:3px}
+  [data-only]:not(.v){display:none}
+</style>
+</head>
+<body>
+<div class="photo"></div><div class="shade"></div>
+<div class="bar"><i id="bar"></i></div>
+
+<div class="stage">
+  <!-- 1 Hook -->
+  <div data-only="1">
+    <h1 class="serif">Diese 3 Sätze<br>retten deinen<br><span class="gold">nächsten Streit.</span></h1>
+    <div class="tag">Nr. 3 überrascht die meisten</div>
+  </div>
+
+  <!-- 2 Wiedererkennen -->
+  <div data-only="2">
+    <div class="kicker">Kennst du das?</div>
+    <h2 class="serif">Ein kleines Thema.<br>Ein falscher Ton.<br><span class="gold">Und plötzlich<br>geht's um alles.</span></h2>
+  </div>
+
+  <!-- 3–5 Die Sätze -->
+  <div data-only="3">
+    <div class="big-n">1</div>
+    <div class="quote">„Ich merke, ich werde gerade <span class="gold">laut</span>.“</div>
+    <div class="why">Wer es ausspricht, nimmt sofort Druck raus.</div>
+  </div>
+  <div data-only="4">
+    <div class="big-n">2</div>
+    <div class="quote">„Lass uns in <span class="gold">20 Minuten</span> weiterreden.“</div>
+    <div class="why">Eine Pause ist kein Weglaufen. Der Körper braucht Zeit, um runterzufahren.</div>
+  </div>
+  <div data-only="5">
+    <div class="big-n">3</div>
+    <div class="quote">„Was <span class="gold">brauchst du</span> gerade von mir?“</div>
+    <div class="why">Hinter fast jedem Streit steckt ein Bedürfnis – nicht ein Gegner.</div>
+  </div>
+
+  <!-- 6 Warum es wirkt -->
+  <div data-only="6">
+    <div class="kicker">Warum das wirkt</div>
+    <h2 class="serif" style="font-size:72px">Ihr kämpft nicht<br>mehr gegeneinander –<br><span class="gold">sondern zusammen<br>gegen das Problem.</span></h2>
+  </div>
+
+  <!-- 7 Folgen -->
+  <div data-only="7">
+    <img class="logo" src="../../LOGO.png" alt="">
+    <h2 class="serif" style="text-align:center;font-size:70px">Teil 2 kommt:<br><span class="gold">3 Sätze, die du im Streit<br>NIE sagen solltest.</span></h2>
+    <div class="card"><div class="t">Folge <span class="gold">@tiefenrausch_digital</span></div><div class="d">damit du Teil 2 nicht verpasst</div></div>
+    <div class="card"><div class="t">Schick das weiter 😉</div><div class="d">an die Person, mit der du zuletzt gestritten hast</div></div>
+  </div>
+</div>
+
+<script>
+  var SCENES = 7;
+  var n = parseInt((location.hash||'#1').slice(1),10)||1;
+  document.querySelectorAll('[data-only]').forEach(function(e){ if(+e.dataset.only===n) e.classList.add('v'); });
+  if(n>=2 && n<=6) document.body.classList.add("dense");
+  if(n===SCENES) document.querySelector(".shade").style.background="rgba(6,17,29,.72)";
+  document.getElementById('bar').style.width=(n/SCENES*100)+'%';
+</script>
+</body>
+</html>
