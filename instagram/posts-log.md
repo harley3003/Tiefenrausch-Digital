@@ -14,5 +14,8 @@
 | 10 | 2026-11-26 | Reel | Geld & Sparen | Weihnachten mit der Umschlagmethode – kein Januar-Loch (4 Schritte + „geht auch ohne Bargeld“; Hintergrund: Foto Hände versiegeln Umschläge am Holztisch, Unsplash / Raymond Petrik) | veröffentlicht 2026-11-26 | Media-ID 17916997449471878 (Link folgt) |
 | 07b | 2026-11-26 | Reel | Konflikte lösen | Neu-Post von 07 MIT Musik (Acoustic Guitar – tape-echo / Pixabay); Original wurde in der App gelöscht | veröffentlicht 2026-11-26 | Media-ID 18118170515133550 (Link folgt) |
 | 08b | 2026-11-26 | Reel | Konflikte lösen | Neu-Post von 08 MIT Musik (Lofi Chill – JonasBlakewood / Pixabay); Original wurde in der App gelöscht | veröffentlicht 2026-11-26 | Media-ID 17914492464585238 (Link folgt) |
+| 11 | 2026-11-27 | Reel | Psyche stärken | Mental Load: Dein Kopf hat 47 Tabs offen (Foto Hand schreibt im Dunkeln, Unsplash / Eugene Chystiakov; Musik Lofi Chill Vlog Beats – alex-morgan) | geplant Fr 27.11. ca. 19:12 | – |
+| 12 | 2026-11-28 | Reel | Geld & Sparen | 4 Kerzen, 4 Umschläge – Advents-Budget (Foto Adventskranz, Unsplash / Daniel Seßler; Musik Feel Good – Easy_Eva) | geplant Sa 28.11. ca. 18:47 | – |
+| 13 | 2026-11-29 | Reel | Konflikte lösen | Streit unterm Weihnachtsbaum? 3 Absprachen (Foto Festtafel, Unsplash / krakenimages; Musik Christmas Children Background – VibeHorn) | geplant So 29.11. ca. 10:23 | – |
 
 Format-Regel: Reel und Karussell wechseln sich ab. Nächstes Format = Gegenteil der letzten Zeile. Musik wird seit 26.11. fest ins Video eingebaut (lizenzfrei, Pixabay, jedes Reel anders).
