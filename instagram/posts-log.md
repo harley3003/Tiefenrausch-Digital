@@ -12,7 +12,7 @@
 | 08 | 2026-11-25 | Reel | Konflikte lösen | Teil 2: 3 Sätze, die du im Streit NIE sagen solltest (Fortsetzung von 07; Hintergrund: Foto brennendes Streichholz, Unsplash / Soulride Photography) | veröffentlicht 2026-11-26 | https://www.instagram.com/reel/DgMc1FABEjB/ |
 | 09 | 2026-11-25 | Karussell | Psyche stärken | Sprüche: 4 Sätze, die du heute lesen solltest (vom Inhaber vorgegeben; Hintergründe: 4 Unsplash-Fotos – Auto bei Nacht, Läufer, Steingewölbe, Silhouette) | veröffentlicht 2026-11-26 | Media-ID 18117492260038994 (Link folgt) |
 | 10 | 2026-11-26 | Reel | Geld & Sparen | Weihnachten mit der Umschlagmethode – kein Januar-Loch (4 Schritte + „geht auch ohne Bargeld“; Hintergrund: Foto Hände versiegeln Umschläge am Holztisch, Unsplash / Raymond Petrik) | veröffentlicht 2026-11-26 | Media-ID 17916997449471878 (Link folgt) |
-| 07b | 2026-11-26 | Reel | Konflikte lösen | Neu-Post von 07 MIT Musik (Acoustic Guitar – tape-echo / Pixabay); Original wurde in der App gelöscht | geplant 26.11. ca. 18:34 | – |
-| 08b | 2026-11-27 | Reel | Konflikte lösen | Neu-Post von 08 MIT Musik (Lofi Chill – JonasBlakewood / Pixabay); Original wurde in der App gelöscht | geplant 27.11. ca. 08:37 | – |
+| 07b | 2026-11-26 | Reel | Konflikte lösen | Neu-Post von 07 MIT Musik (Acoustic Guitar – tape-echo / Pixabay); Original wurde in der App gelöscht | veröffentlicht 2026-11-26 | Media-ID 18118170515133550 (Link folgt) |
+| 08b | 2026-11-26 | Reel | Konflikte lösen | Neu-Post von 08 MIT Musik (Lofi Chill – JonasBlakewood / Pixabay); Original wurde in der App gelöscht | veröffentlicht 2026-11-26 | Media-ID 17914492464585238 (Link folgt) |
 
 Format-Regel: Reel und Karussell wechseln sich ab. Nächstes Format = Gegenteil der letzten Zeile. Musik wird seit 26.11. fest ins Video eingebaut (lizenzfrei, Pixabay, jedes Reel anders).
