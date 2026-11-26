@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<!-- Post 08 (Reel): Konflikte lösen – Teil 2: 3 Sätze, die du im Streit NIE sagen solltest. 7 Szenen. Hintergrund: Unsplash / Soulride Photography -->
+<style>
+  :root{ --navy:#0b1a2b; --deep:#06111d; --gold:#e0af5c; --cream:#fdf0dc; --muted:#b9c4d2; }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1920px;overflow:hidden}
+  body{background:#000;color:var(--cream);font-family:"Segoe UI",Arial,sans-serif}
+  .photo{position:absolute;inset:0;background:#000 url(bg.jpg) 50% 100%/80% auto no-repeat}
+  .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(6,17,29,.75) 0%,rgba(6,17,29,.35) 50%,rgba(6,17,29,.15) 75%,rgba(6,17,29,.6) 100%)}
+  .no{display:inline-block;font-size:34px;font-weight:700;letter-spacing:.2em;color:#ff8a6a;border:2px solid #ff8a6a;border-radius:30px;padding:8px 22px;margin-bottom:24px}
+  .yes{margin-top:44px;padding:28px 34px;border-radius:24px;background:rgba(224,175,92,.12);border:2px solid rgba(224,175,92,.55)}
+  .yes b{display:block;color:var(--gold);font-size:30px;letter-spacing:.2em;margin-bottom:10px}
+  .yes span{font-family:Georgia,serif;font-size:52px;font-weight:700;line-height:1.2}
+  body.dense .photo{filter:blur(9px);transform:scale(1.05)}
+  body.dense .shade{background:rgba(6,17,29,.78)}
+  body.dense .photo{background-size:120% auto;background-position:50% 60%}
+  .stage{position:absolute;left:90px;right:120px;top:260px;bottom:440px;display:flex;flex-direction:column;justify-content:center;z-index:2}
+  .top{justify-content:flex-start;padding-top:40px}
+  body.dense .stage{justify-content:center;padding-top:0}
+  .serif{font-family:Georgia,"Times New Roman",serif}
+  .gold{color:var(--gold)}
+  .kicker{color:var(--gold);letter-spacing:.32em;font-size:30px;font-weight:600;text-transform:uppercase;margin-bottom:30px}
+  h1{font-size:108px;line-height:1.04;font-weight:700;text-shadow:0 4px 30px rgba(0,0,0,.6)}
+  h2{font-size:80px;line-height:1.1;font-weight:700}
+  .lead{font-size:46px;line-height:1.4;color:var(--muted)}
+  .tag{display:inline-block;margin-top:44px;padding:14px 28px;border:2px solid var(--gold);border-radius:40px;color:var(--gold);font-size:36px;font-weight:600;background:rgba(6,17,29,.55)}
+  .big-n{font-family:Georgia,serif;font-size:200px;line-height:.9;color:var(--gold);font-weight:700}
+  .quote{font-family:Georgia,serif;font-size:84px;line-height:1.12;font-weight:700;margin-top:24px}
+  .why{font-size:44px;line-height:1.4;color:var(--muted);margin-top:40px;border-left:6px solid var(--gold);padding-left:28px}
+  .logo{width:220px;display:block;margin:0 auto 40px}
+  .card{border:2px solid rgba(224,175,92,.5);border-radius:28px;padding:34px 40px;background:rgba(6,17,29,.6);margin-top:30px;text-align:center}
+  .card .t{font-size:46px;font-weight:700}
+  .card .d{font-size:36px;color:var(--muted);margin-top:8px;line-height:1.35}
+  .bar{position:absolute;left:90px;right:120px;top:200px;height:6px;background:rgba(255,255,255,.18);border-radius:3px;z-index:2}
+  .bar i{display:block;height:100%;background:var(--gold);border-radius:3px}
+  [data-only]:not(.v){display:none}
+</style>
+</head>
+<body>
+<div class="photo"></div><div class="shade"></div>
+<div class="bar"><i id="bar"></i></div>
+
+
+<div class="stage top">
+  <!-- 1 Hook -->
+  <div data-only="1">
+    <div class="tag" style="margin:0 0 34px">Teil 2</div>
+    <h1 class="serif">Diese 3 Sätze<br><span class="gold">gießen Öl<br>ins Feuer.</span></h1>
+    <p class="lead" style="margin-top:34px;color:var(--cream)">Nr. 2 sagt fast jeder.</p>
+  </div>
+
+  <!-- 2 Wiedererkennen -->
+  <div data-only="2">
+    <div class="kicker">Ehrlich gesagt</div>
+    <h2 class="serif">Wir alle haben sie<br>schon gesagt.<br><span class="gold">Und es wurde<br>nur schlimmer.</span></h2>
+  </div>
+
+  <!-- 3–5 Die Sätze -->
+  <div data-only="3">
+    <div class="no">✕ NIE</div>
+    <div class="quote" style="margin-top:0">„Du bist <span class="gold">immer</span><br>so egoistisch!“</div>
+    <div class="why">„Immer“ und „nie“ greifen den ganzen Menschen an – der andere muss sich verteidigen.</div>
+    <div class="yes"><b>✓ BESSER</b><span>„Mich stört gerade, dass …“</span></div>
+  </div>
+  <div data-only="4">
+    <div class="no">✕ NIE</div>
+    <div class="quote" style="margin-top:0">„Jetzt <span class="gold">beruhig</span> dich mal!“</div>
+    <div class="why">Klingt wie: Deine Gefühle zählen nicht. Kaum jemand wird dadurch ruhiger.</div>
+    <div class="yes"><b>✓ BESSER</b><span>„Ich sehe, dass dich das aufregt.“</span></div>
+  </div>
+  <div data-only="5">
+    <div class="no">✕ NIE</div>
+    <div class="quote" style="margin-top:0">„Dann mach doch, was du <span class="gold">willst</span>.“</div>
+    <div class="why">Das beendet das Gespräch – aber nicht den Streit. Er kommt garantiert wieder.</div>
+    <div class="yes"><b>✓ BESSER</b><span>„Ich brauche kurz Pause. Danach reden wir weiter.“</span></div>
+  </div>
+
+  <!-- 6 Merksatz -->
+  <div data-only="6">
+    <div class="kicker">Merk dir</div>
+    <h2 class="serif">Kritisiere das<br>Verhalten –<br><span class="gold">nicht den Menschen.</span></h2>
+  </div>
+
+  <!-- 7 Folgen -->
+  <div data-only="7" style="padding-top:60px">
+    <img class="logo" src="../../LOGO.png" alt="">
+    <h2 class="serif" style="text-align:center;font-size:68px">Mehr Ruhe<br><span class="gold">in jedem Streit.</span></h2>
+    <div class="card"><div class="t">Folge <span class="gold">@tiefenrausch_digital</span></div><div class="d">jede Woche ein neuer Tipp, der wirklich hilft</div></div>
+    <div class="card"><div class="t">Teil 1 verpasst?</div><div class="d">Die 3 Sätze, die Streit retten – im Profil</div></div>
+  </div>
+</div>
+
+<script>
+  var SCENES = 7;
+  var n = parseInt((location.hash||'#1').slice(1),10)||1;
+  document.querySelectorAll('[data-only]').forEach(function(e){ if(+e.dataset.only===n) e.classList.add('v'); });
+  if(n>=2 && n<=6) document.body.classList.add("dense");
+  if(n===SCENES) document.querySelector(".shade").style.background="rgba(6,17,29,.7)";
+  document.getElementById('bar').style.width=(n/SCENES*100)+'%';
+</script>
+</body>
+</html>
