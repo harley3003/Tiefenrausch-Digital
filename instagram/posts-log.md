@@ -11,5 +11,6 @@
 | 07 | 2026-11-25 | Reel | Konflikte lösen | 3 Sätze, die deinen nächsten Streit retten – Teil 1 (Teil 2 versprochen: 3 Sätze, die du NIE sagen solltest; Hintergrund: Foto zwei Kaffeetassen, Unsplash / Tania Lyahnovich) | veröffentlicht (als normales Reel; Trial Reel wegen zu weniger Follower nicht möglich) | https://www.instagram.com/reel/DgKIeEZs9Pp/ |
 | 08 | 2026-11-25 | Reel | Konflikte lösen | Teil 2: 3 Sätze, die du im Streit NIE sagen solltest (Fortsetzung von 07; Hintergrund: Foto brennendes Streichholz, Unsplash / Soulride Photography) | veröffentlicht 2026-11-26 | https://www.instagram.com/reel/DgMc1FABEjB/ |
 | 09 | 2026-11-25 | Karussell | Psyche stärken | Sprüche: 4 Sätze, die du heute lesen solltest (vom Inhaber vorgegeben; Hintergründe: 4 Unsplash-Fotos – Auto bei Nacht, Läufer, Steingewölbe, Silhouette) | veröffentlicht 2026-11-26 | Media-ID 18117492260038994 (Link folgt) |
+| 10 | 2026-11-26 | Reel | Geld & Sparen | Weihnachten mit der Umschlagmethode – kein Januar-Loch (4 Schritte + „geht auch ohne Bargeld“; Hintergrund: Foto Hände versiegeln Umschläge am Holztisch, Unsplash / Raymond Petrik) | wartet auf Freigabe | – |
 
 Format-Regel: Reel und Karussell wechseln sich ab. Nächstes Format = Gegenteil der letzten Zeile. Gepostet wird ohne Musik – der Inhaber fügt sie danach selbst in der App hinzu.
